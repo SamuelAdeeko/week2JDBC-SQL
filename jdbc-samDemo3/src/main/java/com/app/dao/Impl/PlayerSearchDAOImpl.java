@@ -1,6 +1,7 @@
 package com.app.dao.Impl;
 
 import java.sql.Connection;
+import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -181,6 +182,37 @@ public class PlayerSearchDAOImpl implements PlayerSearchDAO {
 		
 		return playersByGenderList;
 	}
+	
+	@Override
+	public List<Player> getPlayersByTeam_id(int team_id) throws BusinessException {
+		List<Player> playersByTeamIdList = new ArrayList<>();
+		try (Connection connection = PostgresqlConnection.getConnection()) {
+			String sql = "select id, name, age, gender, contact, dob from revaturetest.player where team_id = ?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, team_id);
+			ResultSet resultset = preparedStatement.executeQuery();
+			System.out.println("Query executed");
+			while(resultset.next()) {
+				System.out.println("in DAO");
+				Player player = new Player();
+				player.setTeam_id(team_id);
+				player.setId(resultset.getInt("id"));
+				player.setName(resultset.getString("name"));
+				player.setAge(resultset.getInt("age"));
+				player.setGender(resultset.getString("gender"));
+				player.setContact(resultset.getLong("contact"));
+				player.setDob(resultset.getDate("dob"));
+				playersByTeamIdList.add(player);
+			} if(playersByTeamIdList.size() == 0) {
+				throw new BusinessException("No player found with team_Id: " + team_id);
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println("In DAO exception");
+			System.out.println(e);
+			throw new BusinessException("Internal error occurred contact SYS Admin");
+		}
+		return playersByTeamIdList;
+	}
 
 	@Override
 	public List<Player> getPlayersByTeamName(String teamname) throws BusinessException {
@@ -190,14 +222,71 @@ public class PlayerSearchDAOImpl implements PlayerSearchDAO {
 
 	@Override
 	public List<Player> getPlayersByName(String name) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
+		List<Player> playersByNameList = new ArrayList<>();
+		try (Connection connection = PostgresqlConnection.getConnection()) {
+			String sql = "select id, team_id, age, gender, contact, dob from revaturetest.player where name = ?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, name);
+			ResultSet resultset = preparedStatement.executeQuery();
+			System.out.println("Query executed");
+			while(resultset.next()) {
+				System.out.println("in DAO");
+				Player player = new Player();
+				player.setName(name);
+				player.setId(resultset.getInt("id"));
+				player.setTeam_id(resultset.getInt("team_id"));
+				player.setAge(resultset.getInt("age"));
+				player.setGender(resultset.getString("gender"));
+				player.setContact(resultset.getLong("contact"));
+				player.setDob(resultset.getDate("dob"));
+				playersByNameList.add(player);
+			} if(playersByNameList.size() == 0) {
+				throw new BusinessException("No player found with name: " + name);
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println("In DAO exception");
+			System.out.println(e);
+			throw new BusinessException("Internal error occurred contact SYS Admin");
+		}
+		return playersByNameList;
+		
 	}
 
+	
+
 	@Override
-	public List<Player> getPlayersByDob(String dob) throws BusinessException {
-		// TODO Auto-generated method stub
-		return null;
+	public List<Player> getPlayersByDob(Date dob) throws BusinessException {
+		List<Player> playersByDob = new ArrayList<>();
+		try (Connection connection = PostgresqlConnection.getConnection()) {
+			String sql = "select id, name, team_id, age, gender, contact from revaturetest.player where dob = ?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setDate(1, dob);
+			ResultSet resultset = preparedStatement.executeQuery();
+			System.out.println("Query executed");
+			while(resultset.next()) {
+				Player player = new Player();
+				player.setDob(dob);
+				player.setId(resultset.getInt("id"));
+				player.setName(resultset.getString("name"));
+				player.setTeam_id(resultset.getInt("team_id"));
+				player.setAge(resultset.getInt("age"));
+				player.setGender(resultset.getString("gender"));
+				player.setContact(resultset.getLong("contact"));
+				playersByDob.add(player);
+				
+			}if(playersByDob.size() == 0) {
+				throw new BusinessException("No player found with dob: " + dob);
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println("In DAO exception");
+			System.out.println(e);
+			throw new BusinessException("Internal error occurred contact SYS Admin");
+		}
+		
+		
+		return playersByDob;
 	}
+
+	
 
 }
