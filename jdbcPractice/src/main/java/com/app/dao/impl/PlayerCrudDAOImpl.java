@@ -31,7 +31,7 @@ public class PlayerCrudDAOImpl implements PlayerCrudDAO {
 			c=preparedStatement.executeUpdate(); 
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e); //Take off this line when app is live...this is for programmer to track it
+			System.out.println(e); // Take off this line when app is live...this is for programmer to track it
 			throw new BusinessException("Internal error occured contact SYSADMIN");
 		} 
 		
@@ -41,7 +41,7 @@ public class PlayerCrudDAOImpl implements PlayerCrudDAO {
 	@Override
 	public void deletePlayer(int id) throws BusinessException {
 		
-		int c = 0;
+		int c =  0;
 		try(Connection connection = PostgressqlConnection.getConnection()){
 			String sql = "DELETE FROM revaturetest.player WHERE id=?" ;  
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);

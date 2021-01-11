@@ -1,0 +1,163 @@
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 05:34:05
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 05:34:05
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 05:34:05
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 05:34:05
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 05:34:05
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 05:34:05
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 05:40:54
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 05:40:54
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 05:40:54
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 05:40:54
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 05:40:54
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 05:40:54
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 05:43:37
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 05:43:37
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 05:43:37
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 05:43:37
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 05:43:37
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 05:43:37
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 05:43:57
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 05:43:57
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 05:43:57
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 05:43:57
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 05:43:57
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 05:43:57
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 05:46:44
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 05:46:44
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 05:46:44
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 05:46:44
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 05:46:44
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 05:46:44
+{INFO}  log4j_adeekobank.service.HelloLogService   Invalid loggin information       11-Jan-2021 Monday PST 05:46:44
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 05:51:55
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 05:51:55
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 05:51:55
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 05:51:55
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 05:51:55
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 05:51:55
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 05:53:01
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 05:53:01
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 05:53:01
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 05:53:01
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 05:53:01
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 05:53:01
+{INFO}  log4j_adeekobank.service.HelloLogService   Invalid User Id       11-Jan-2021 Monday PST 05:53:01
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 05:54:22
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 05:54:22
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 05:54:22
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 05:54:22
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 05:54:22
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 05:54:22
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 05:54:59
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 05:54:59
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 05:54:59
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 05:54:59
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 05:54:59
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 05:54:59
+{INFO}  log4j_adeekobank.service.HelloLogService   Invalid loggin information       11-Jan-2021 Monday PST 05:54:59
+{TRACE}  log4j_adeekobank.main.HelloLog4j   Hello from trace       11-Jan-2021 Monday PST 05:56:55
+{DEBUG}  log4j_adeekobank.main.HelloLog4j   Hello from DEBUG       11-Jan-2021 Monday PST 05:56:55
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 05:56:55
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 05:56:55
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 05:56:55
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 05:56:55
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 05:56:55
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 05:56:55
+{INFO}  log4j_adeekobank.service.HelloLogService   Invalid loggin information       11-Jan-2021 Monday PST 05:56:55
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 05:58:44
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 05:58:44
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 05:58:44
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 05:58:44
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 05:58:44
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 05:58:44
+{INFO}  log4j_adeekobank.service.HelloLogService   Invalid loggin information       11-Jan-2021 Monday PST 05:58:44
+{TRACE}  log4j_adeekobank.main.HelloLog4j   Hello from trace       11-Jan-2021 Monday PST 06:22:06
+{DEBUG}  log4j_adeekobank.main.HelloLog4j   Hello from DEBUG       11-Jan-2021 Monday PST 06:22:06
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 06:22:06
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 06:22:06
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 06:22:06
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 06:22:06
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 06:22:06
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 06:22:06
+{INFO}  log4j_adeekobank.service.HelloLogService   Invalid loggin information       11-Jan-2021 Monday PST 06:22:06
+{TRACE}  log4j_adeekobank.main.HelloLog4j   Hello from trace       11-Jan-2021 Monday PST 06:22:11
+{DEBUG}  log4j_adeekobank.main.HelloLog4j   Hello from DEBUG       11-Jan-2021 Monday PST 06:22:11
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 06:22:11
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 06:22:11
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 06:22:11
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 06:22:11
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 06:22:11
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 06:22:11
+{INFO}  log4j_adeekobank.service.HelloLogService   Invalid loggin information       11-Jan-2021 Monday PST 06:22:11
+{TRACE}  log4j_adeekobank.main.HelloLog4j   Hello from trace       11-Jan-2021 Monday PST 06:22:23
+{DEBUG}  log4j_adeekobank.main.HelloLog4j   Hello from DEBUG       11-Jan-2021 Monday PST 06:22:23
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 06:22:23
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 06:22:23
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 06:22:23
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 06:22:23
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 06:22:23
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 06:22:23
+{INFO}  log4j_adeekobank.service.HelloLogService   Invalid loggin information       11-Jan-2021 Monday PST 06:22:23
+{INFO}  log4j_adeekobank.main.HelloLog4j   Hello from INFO       11-Jan-2021 Monday PST 06:24:00
+{WARN}  log4j_adeekobank.main.HelloLog4j   Hello from WARN       11-Jan-2021 Monday PST 06:24:00
+{ERROR}  log4j_adeekobank.main.HelloLog4j   Hello from ERROR       11-Jan-2021 Monday PST 06:24:00
+{FATAL}  log4j_adeekobank.main.HelloLog4j   Hello from FATAL       11-Jan-2021 Monday PST 06:24:00
+{INFO}  log4j_adeekobank.service.HelloLogService   Hello from log service       11-Jan-2021 Monday PST 06:24:00
+{INFO}  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()       11-Jan-2021 Monday PST 06:24:00
+{INFO}  log4j_adeekobank.service.HelloLogService   Invalid loggin information       11-Jan-2021 Monday PST 06:24:00
+{INFO} bank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from INFO   %20 .20c    11-Jan-2021 Monday PST 06:36:13
+{WARN} bank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from WARN   %20 .20c    11-Jan-2021 Monday PST 06:36:13
+{ERROR} bank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from ERROR   %20 .20c    11-Jan-2021 Monday PST 06:36:13
+{FATAL} bank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from FATAL   %20 .20c    11-Jan-2021 Monday PST 06:36:13
+{INFO} vice.HelloLogService  log4j_adeekobank.service.HelloLogService   Hello from log service   %20 .20c    11-Jan-2021 Monday PST 06:36:13
+{INFO} vice.HelloLogService  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()   %20 .20c    11-Jan-2021 Monday PST 06:36:13
+{INFO} vice.HelloLogService  log4j_adeekobank.service.HelloLogService   Invalid loggin information   %20 .20c    11-Jan-2021 Monday PST 06:36:13
+{INFO} bank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from INFO      11-Jan-2021 Monday PST 06:36:37
+{WARN} bank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from WARN      11-Jan-2021 Monday PST 06:36:37
+{ERROR} bank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from ERROR      11-Jan-2021 Monday PST 06:36:37
+{FATAL} bank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from FATAL      11-Jan-2021 Monday PST 06:36:37
+{INFO} vice.HelloLogService  log4j_adeekobank.service.HelloLogService   Hello from log service      11-Jan-2021 Monday PST 06:36:37
+{INFO} vice.HelloLogService  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()      11-Jan-2021 Monday PST 06:36:37
+{INFO} vice.HelloLogService  log4j_adeekobank.service.HelloLogService   Invalid loggin information      11-Jan-2021 Monday PST 06:36:37
+{INFO} g4j_adeekobank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from INFO      11-Jan-2021 Monday PST 06:37:46
+{WARN} g4j_adeekobank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from WARN      11-Jan-2021 Monday PST 06:37:46
+{ERROR} g4j_adeekobank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from ERROR      11-Jan-2021 Monday PST 06:37:46
+{FATAL} g4j_adeekobank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from FATAL      11-Jan-2021 Monday PST 06:37:46
+{INFO} kobank.service.HelloLogService  log4j_adeekobank.service.HelloLogService   Hello from log service      11-Jan-2021 Monday PST 06:37:46
+{INFO} kobank.service.HelloLogService  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()      11-Jan-2021 Monday PST 06:37:46
+{INFO} kobank.service.HelloLogService  log4j_adeekobank.service.HelloLogService   Invalid loggin information      11-Jan-2021 Monday PST 06:37:46
+{INFO} 2021-01-11 06:38:38,954 [      0] g4j_adeekobank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from INFO      11-Jan-2021 Monday PST 06:38:38
+{WARN} 2021-01-11 06:38:38,959 [      5] g4j_adeekobank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from WARN      11-Jan-2021 Monday PST 06:38:38
+{ERROR} 2021-01-11 06:38:38,959 [      5] g4j_adeekobank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from ERROR      11-Jan-2021 Monday PST 06:38:38
+{FATAL} 2021-01-11 06:38:38,959 [      5] g4j_adeekobank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from FATAL      11-Jan-2021 Monday PST 06:38:38
+{INFO} 2021-01-11 06:38:38,960 [      6] kobank.service.HelloLogService  log4j_adeekobank.service.HelloLogService   Hello from log service      11-Jan-2021 Monday PST 06:38:38
+{INFO} 2021-01-11 06:38:38,961 [      7] kobank.service.HelloLogService  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()      11-Jan-2021 Monday PST 06:38:38
+{INFO} 2021-01-11 06:38:38,961 [      7] kobank.service.HelloLogService  log4j_adeekobank.service.HelloLogService   Invalid loggin information      11-Jan-2021 Monday PST 06:38:38
+{INFO} 2021-01-11 06:39:57,632 [      0] g4j_adeekobank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from INFO     {WARN} 2021-01-11 06:39:57,633 [      1] g4j_adeekobank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from WARN     {ERROR} 2021-01-11 06:39:57,634 [      2] g4j_adeekobank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from ERROR     {FATAL} 2021-01-11 06:39:57,634 [      2] g4j_adeekobank.main.HelloLog4j  log4j_adeekobank.main.HelloLog4j   Hello from FATAL     {INFO} 2021-01-11 06:39:57,635 [      3] kobank.service.HelloLogService  log4j_adeekobank.service.HelloLogService   Hello from log service     {INFO} 2021-01-11 06:39:57,635 [      3] kobank.service.HelloLogService  log4j_adeekobank.service.HelloLogService   bye bye from log service helloLog()     {INFO} 2021-01-11 06:39:57,635 [      3] kobank.service.HelloLogService  log4j_adeekobank.service.HelloLogService   Invalid loggin information     2021-01-11 06:43:08,966 [      0]   INFO - log4j_adeekobank.main.HelloLog4j - Hello from INFO
+2021-01-11 06:43:08,967 [      1]   WARN - log4j_adeekobank.main.HelloLog4j - Hello from WARN
+2021-01-11 06:43:08,967 [      1]  ERROR - log4j_adeekobank.main.HelloLog4j - Hello from ERROR
+2021-01-11 06:43:08,967 [      1]  FATAL - log4j_adeekobank.main.HelloLog4j - Hello from FATAL
+2021-01-11 06:43:08,968 [      2]   INFO - log4j_adeekobank.service.HelloLogService - Hello from log service
+2021-01-11 06:43:08,968 [      2]   INFO - log4j_adeekobank.service.HelloLogService - bye bye from log service helloLog()
+2021-01-11 06:43:08,968 [      2]   INFO - log4j_adeekobank.service.HelloLogService - Invalid loggin information
+2021-01-11 06:49:33,339 [      0]   INFO - log4j_adeekobank.main.HelloLog4j - Hello from INFO 
+2021-01-11 06:49:33,340 [      1]   WARN - log4j_adeekobank.main.HelloLog4j - Hello from WARN 
+2021-01-11 06:49:33,340 [      1]  ERROR - log4j_adeekobank.main.HelloLog4j - Hello from ERROR 
+2021-01-11 06:49:33,340 [      1]  FATAL - log4j_adeekobank.main.HelloLog4j - Hello from FATAL 
+2021-01-11 06:49:33,341 [      2]   INFO - log4j_adeekobank.service.HelloLogService - Hello from log service 
+2021-01-11 06:49:33,341 [      2]   INFO - log4j_adeekobank.service.HelloLogService - bye bye from log service helloLog() 
+2021-01-11 06:49:33,342 [      3]   INFO - log4j_adeekobank.service.HelloLogService - Invalid loggin information 
+2021-01-11 06:51:50,282 [      0]   INFO - log4j_adeekobank.main.HelloLog4j - Hello from INFO 
+2021-01-11 06:51:50,283 [      1]   WARN - log4j_adeekobank.main.HelloLog4j - Hello from WARN 
+2021-01-11 06:51:50,283 [      1]  ERROR - log4j_adeekobank.main.HelloLog4j - Hello from ERROR 
+2021-01-11 06:51:50,283 [      1]  FATAL - log4j_adeekobank.main.HelloLog4j - Hello from FATAL 
+2021-01-11 06:51:50,284 [      2]   INFO - log4j_adeekobank.service.HelloLogService - Hello from log service 
+2021-01-11 06:51:50,284 [      2]   INFO - log4j_adeekobank.service.HelloLogService - bye bye from log service helloLog() 
+2021-01-11 06:51:50,284 [      2]   INFO - log4j_adeekobank.service.HelloLogService - Invalid loggin information 
+2021-01-11 06:53:20,048 [      0]   INFO - log4j_adeekobank.main.HelloLog4j - Hello from INFO 
+2021-01-11 06:53:20,050 [      2]   WARN - log4j_adeekobank.main.HelloLog4j - Hello from WARN 
+2021-01-11 06:53:20,050 [      2]  ERROR - log4j_adeekobank.main.HelloLog4j - Hello from ERROR 
+2021-01-11 06:53:20,050 [      2]  FATAL - log4j_adeekobank.main.HelloLog4j - Hello from FATAL 
+2021-01-11 06:53:20,051 [      3]   INFO - log4j_adeekobank.service.HelloLogService - Hello from log service 
+2021-01-11 06:53:20,051 [      3]   INFO - log4j_adeekobank.service.HelloLogService - bye bye from log service helloLog() 
+2021-01-11 06:53:20,052 [      4]   INFO - log4j_adeekobank.service.HelloLogService - Invalid loggin information 

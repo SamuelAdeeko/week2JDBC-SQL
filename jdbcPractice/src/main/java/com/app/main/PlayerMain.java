@@ -12,15 +12,15 @@ public class PlayerMain {
 	public static void main(String[] args) {
 	PlayerCrudDAO dao = new PlayerCrudDAOImpl();
 		
-		Player p = new Player(200, "Banks" , 101, 46, "m", 22533423l, new Date() );
-		
-		try {
-			if(dao.createPlayer(p)!=0) {
-				System.out.println("Player created succcessfully");
-			}
-		} catch (BusinessException e) {
-			System.out.println(e.getMessage());
-		}
+//		Player p = new Player(200, "Banks" , 101, 46, "m", 22533423l, new Date() );
+//		
+//		try {
+//			if(dao.createPlayer(p)!=0) {
+//				System.out.println("Player created succcessfully");
+//			}
+//		} catch (BusinessException e) {
+//			System.out.println(e.getMessage());
+//		}
 		
 	
 //		try {
@@ -49,18 +49,18 @@ public class PlayerMain {
 //			System.out.println(e.getMessage());
 //		}
 		
-//		try {
-//			List<Player> playerList=dao.getAllPlayers();
-//			if(playerList!=null && playerList.size()!=0) {
-//				System.out.println("Found "+ playerList.size()+" no of players in Database....Printing them all");
-//				for(Player p:playerList) {
-//					System.out.println(p);
-//				}
-//			}
-//		} catch (BusinessException e) {
-//			System.out.println(e.getMessage());
-//		}
-//		
+		try {
+			List<Player> playerList=dao.getAllPlayers();
+			if(playerList!=null && playerList.size()!=0) {
+				System.out.println("Found "+ playerList.size()+" no of players in Database....Printing them all");
+				for(Player p:playerList) {
+					System.out.println(p);
+				}
+			}
+		} catch (BusinessException e) {
+			System.out.println(e.getMessage());
+		}
+		
 	}
 
 

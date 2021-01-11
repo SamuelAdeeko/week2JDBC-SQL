@@ -2,7 +2,9 @@ package com.app.dao.dbutil;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 public class PostgressqlConnection {
 
@@ -19,6 +21,8 @@ public class PostgressqlConnection {
 		String password = "Stacyvalley@1";
 		connection = DriverManager.getConnection(url, username, password);
 		return connection;
-	}
+		
 	
+	}
 }
+
